@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import icon from '../assets/images/sdgs_icon/10.png';
+import icon from '../assets/images/sdgs_icon/03.png';
 import image1 from '../assets/images/n10_cs_all.jpg';
 import image2 from '../assets/images/n10_cs_1.jpg';
 import image3 from '../assets/images/n10_cs_2.jpg';
