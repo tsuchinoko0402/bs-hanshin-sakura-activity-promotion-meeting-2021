@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import wheel from '../assets/images/sdgs_icon/wheel.png'; 
+import n10 from '../assets/images/n10_cs_all.jpg';
 import n11 from '../assets/images/n11_bvs.jpg';
 
 import { Link } from 'gatsby';
@@ -51,7 +52,7 @@ const IndexPage = () => (
           </article>
           <article className="style3">
             <span className="image">
-              <img src={wheel} alt="" />
+              <img src={n10} alt="" />
             </span>
             <Link to="/n10">
               <h2>3 すべての人に健康と福祉を</h2>
