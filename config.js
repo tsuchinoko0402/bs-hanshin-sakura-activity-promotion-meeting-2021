@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter phantom', // <title>
-  manifestName: 'Phantom',
+  siteTitle:'ボーイスカウト阪神さくら地区　活動振興大会2021', // <title>
+  manifestName: 'ボーイスカウト阪神さくら地区',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
