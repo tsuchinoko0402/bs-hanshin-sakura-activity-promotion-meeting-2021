@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import bp from '../assets/images/bp.png';
+import jikko_iincho from '../assets/images/jikkou-iincho.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -9,7 +9,7 @@ const IndexPage = () => (
 		<div className="inner">
 			<h1>実行委員長挨拶</h1>
 			<span className="image left">
-          		<img src={bp} alt="" />
+          		<img src={jikko_iincho} alt="" />
         	</span>
 			<p>
 				近年、テレビ CM やニュース、また広告でもよく見かけるようになりました
