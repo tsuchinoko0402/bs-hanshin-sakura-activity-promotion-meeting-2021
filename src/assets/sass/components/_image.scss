@@ -61,4 +61,19 @@
 				margin: 0 0 _size(element-margin) 0;
 			}
 		}
+		
+		&.sdgs_icon {
+			display: block;
+			margin: 0 0 (_size(element-margin) * 1.5) 0;
+			width: 25%;
+
+			img {
+				width: 100%;
+			}
+
+			@include breakpoint('<=small') {
+				margin: 0 0 _size(element-margin) 0;
+			}
+		}
+
 	}

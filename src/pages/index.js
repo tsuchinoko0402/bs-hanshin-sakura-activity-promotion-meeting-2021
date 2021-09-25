@@ -2,13 +2,8 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import wheel from '../assets/images/sdgs_icon/wheel.png' 
-import pic1 from '../assets/images/01.jpg';
-import pic2 from '../assets/images/02.jpg';
-import pic3 from '../assets/images/03.jpg';
-import pic4 from '../assets/images/04.jpg';
-import pic5 from '../assets/images/05.jpg';
-import pic6 from '../assets/images/06.jpg';
+import wheel from '../assets/images/sdgs_icon/wheel.png'; 
+import n11 from '../assets/images/n11_bvs.jpg';
 
 import { Link } from 'gatsby';
 
@@ -32,7 +27,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={wheel} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/n2">
               <h2>1 貧困をなくそう</h2>
               <div className="content">
                 <p>
@@ -45,7 +40,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={wheel} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/n9">
               <h2>2 飢餓をゼロに</h2>
               <div className="content">
                 <p>
@@ -58,7 +53,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={wheel} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/n10">
               <h2>3 すべての人に健康と福祉を</h2>
               <div className="content">
                 <p>
@@ -71,7 +66,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={wheel} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/a1">
               <h2>4 質の高い教育をみんなに</h2>
               <div className="content">
                 <p>
@@ -84,7 +79,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={wheel} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/n27">
               <h2>5 ジェンダー平等を実現しよう</h2>
               <div className="content">
                 <p>
@@ -97,7 +92,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={wheel} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/n22">
               <h2>6 安全な水とトイレを世界中に</h2>
               <div className="content">
                 <p>
@@ -110,7 +105,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={wheel} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/n1">
               <h2>7 エネルギーをみんなにそしてクリーンに</h2>
               <div className="content">
                 <p>
@@ -123,7 +118,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={wheel} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/n3">
               <h2>8 働きがいも経済成長も</h2>
               <div className="content">
                 <p>
@@ -136,7 +131,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={wheel} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/n6">
               <h2>9 産業と技術革新の基盤をつくろう</h2>
               <div className="content">
                 <p>
@@ -149,7 +144,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={wheel} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/n20">
               <h2>10 人や国の不平等をなくそう</h2>
               <div className="content">
                 <p>
@@ -160,9 +155,9 @@ const IndexPage = () => (
           </article>
           <article className="style11">
             <span className="image">
-              <img src={wheel} alt="" />
+              <img src={n11} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/n11">
               <h2>11 住み続けられるまちづくりを</h2>
               <div className="content">
                 <p>
@@ -175,7 +170,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={wheel} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/n21">
               <h2>12 つくる責任つかう責任</h2>
               <div className="content">
                 <p>
@@ -188,7 +183,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={wheel} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/n13">
               <h2>13 気候変動に具体的な対策を</h2>
               <div className="content">
                 <p>
@@ -201,7 +196,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={wheel} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/n12">
               <h2>14 海の豊かさを守ろう</h2>
               <div className="content">
                 <p>
@@ -214,7 +209,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={wheel} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/n7">
               <h2>15 陸の豊かさも守ろう</h2>
               <div className="content">
                 <p>
@@ -227,7 +222,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={wheel} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/n25">
               <h2>16 平和と公正をすべての人に</h2>
               <div className="content">
                 <p>
@@ -240,24 +235,11 @@ const IndexPage = () => (
             <span className="image">
               <img src={wheel} alt="" />
             </span>
-            <Link to="/Generic">
+            <Link to="/a3">
               <h2>17 パートナーシップで目標を達成しよう</h2>
               <div className="content">
                 <p>
                   芦屋第3団
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style18">
-            <span className="image">
-              <img src={wheel} alt="" />
-            </span>
-            <Link to="/Generic">
-              <h2>SDGs とは？</h2>
-              <div className="content">
-                <p>
-                  
                 </p>
               </div>
             </Link>
