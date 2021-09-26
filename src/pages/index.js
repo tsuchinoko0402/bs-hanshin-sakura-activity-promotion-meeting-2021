@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import wheel from '../assets/images/sdgs_icon/wheel.png'; 
 import n10 from '../assets/images/n10_cs_all.jpg';
 import n11 from '../assets/images/n11_bvs.jpg';
+import a3 from '../assets/images/a3_bs_1.png';
 
 import { Link } from 'gatsby';
 
@@ -234,7 +235,7 @@ const IndexPage = () => (
           </article>
           <article className="style17">
             <span className="image">
-              <img src={wheel} alt="" />
+              <img src={a3} alt="" />
             </span>
             <Link to="/a3">
               <h2>17 パートナーシップで目標を達成しよう</h2>
