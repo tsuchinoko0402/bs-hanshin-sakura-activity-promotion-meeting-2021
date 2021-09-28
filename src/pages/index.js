@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import wheel from '../assets/images/sdgs_icon/wheel.png';
 import n2 from '../assets/images/n2_top.jpg';
 import n3 from '../assets/images/n3.jpeg';
+import n9 from '../assets/images/n9/n9_bvs_1.jpg';
 import n10 from '../assets/images/n10_cs_all.jpg';
 import n11 from '../assets/images/n11_bvs.jpg';
 import a1 from '../assets/images/a1_all.jpg';
@@ -43,7 +44,7 @@ const IndexPage = () => (
           </article>
           <article className="style2">
             <span className="image">
-              <img src={wheel} alt="" />
+              <img src={n9} alt="" />
             </span>
             <Link to="/n9">
               <h2>2 飢餓をゼロに</h2>
