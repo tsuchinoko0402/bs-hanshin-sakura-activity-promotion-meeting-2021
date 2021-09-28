@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import wheel from '../assets/images/sdgs_icon/wheel.png'; 
 import n10 from '../assets/images/n10_cs_all.jpg';
 import n11 from '../assets/images/n11_bvs.jpg';
+import a1 from '../assets/images/a1_all.jpg';
 import a3 from '../assets/images/a3_bs_1.png';
 
 import { Link } from 'gatsby';
@@ -66,7 +67,7 @@ const IndexPage = () => (
           </article>
           <article className="style4">
             <span className="image">
-              <img src={wheel} alt="" />
+              <img src={a1} alt="" />
             </span>
             <Link to="/a1">
               <h2>4 質の高い教育をみんなに</h2>
