@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import icon from '../assets/images/sdgs_icon/05.png';
+import image1 from '../assets/images/n27.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -11,12 +12,12 @@ const IndexPage = () => (
         <p>
           担当：西宮第27団
         </p>
+        <span className="image main">
+          <img src={image1} alt="" />
+        </span>
         <span className="image sdgs_icon">
           <img src={icon} alt="" />
         </span>
-        <p>
-          ここに説明などがあれば書く。
-        </p>
       </div>
     </div>
   </Layout>
