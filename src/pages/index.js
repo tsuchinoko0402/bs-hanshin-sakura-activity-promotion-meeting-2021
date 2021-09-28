@@ -7,7 +7,7 @@ import n2 from '../assets/images/n2_top.jpg';
 import n3 from '../assets/images/n3.jpeg';
 import n9 from '../assets/images/n9/n9_bvs_1.jpg';
 import n10 from '../assets/images/n10_cs_all.jpg';
-import n11 from '../assets/images/n11_bvs.jpg';
+import n11 from '../assets/images/n11/n11_bvs.jpg';
 import a1 from '../assets/images/a1/a1_all.jpg';
 import a3 from '../assets/images/a3_bs_1.png';
 

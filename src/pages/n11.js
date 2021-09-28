@@ -2,10 +2,10 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import icon from '../assets/images/sdgs_icon/11.png';
-import image1 from '../assets/images/n11_bvs.jpg';
-import image2 from '../assets/images/n11_cs_all.jpg';
-import image3 from '../assets/images/n11_cs_1.jpg';
-import image4 from '../assets/images/n11_cs_2.jpg';
+import image1 from '../assets/images/n11/n11_bvs.jpg';
+import image2 from '../assets/images/n11/n11_cs_all.jpg';
+import image3 from '../assets/images/n11/n11_cs_1.jpg';
+import image4 from '../assets/images/n11/n11_cs_2.jpg';
 
 const IndexPage = () => (
   <Layout>
