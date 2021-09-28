@@ -2,9 +2,9 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import icon from '../assets/images/sdgs_icon/04.png';
-import image1 from '../assets/images/a1_1.jpg';
-import image2 from '../assets/images/a1_2.jpg';
-import image3 from '../assets/images/a1_all.jpg';
+import image1 from '../assets/images/a1/a1_1.jpg';
+import image2 from '../assets/images/a1/a1_2.jpg';
+import image3 from '../assets/images/a1/a1_all.jpg';
 
 const IndexPage = () => (
   <Layout>
