@@ -2,7 +2,8 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import wheel from '../assets/images/sdgs_icon/wheel.png'; 
+import wheel from '../assets/images/sdgs_icon/wheel.png';
+import n2 from '../assets/images/n2_top.jpg';
 import n10 from '../assets/images/n10_cs_all.jpg';
 import n11 from '../assets/images/n11_bvs.jpg';
 import a1 from '../assets/images/a1_all.jpg';
@@ -28,7 +29,7 @@ const IndexPage = () => (
         <section className="tiles">
           <article className="style1">
             <span className="image">
-              <img src={wheel} alt="" />
+              <img src={n2} alt="" />
             </span>
             <Link to="/n2">
               <h2>1 貧困をなくそう</h2>
