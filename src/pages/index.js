@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 
 import wheel from '../assets/images/sdgs_icon/wheel.png';
 import n2 from '../assets/images/n2_top.jpg';
+import n3 from '../assets/images/n3.jpeg';
 import n10 from '../assets/images/n10_cs_all.jpg';
 import n11 from '../assets/images/n11_bvs.jpg';
 import a1 from '../assets/images/a1_all.jpg';
@@ -120,7 +121,7 @@ const IndexPage = () => (
           </article>
           <article className="style8">
             <span className="image">
-              <img src={wheel} alt="" />
+              <img src={n3} alt="" />
             </span>
             <Link to="/n3">
               <h2>8 働きがいも経済成長も</h2>
