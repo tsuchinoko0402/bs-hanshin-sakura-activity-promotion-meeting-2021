@@ -9,6 +9,7 @@ import n9 from '../assets/images/n9/n9_bvs_1.jpg';
 import n10 from '../assets/images/n10/n10_cs_all.jpg';
 import n11 from '../assets/images/n11/n11_bvs.jpg';
 import n13 from '../assets/images/n13_cs_1.jpg';
+import n25 from '../assets/images/n25.jpg';
 import a1 from '../assets/images/a1/a1_all.jpg';
 import a3 from '../assets/images/a3_bs_1.png';
 
@@ -227,7 +228,7 @@ const IndexPage = () => (
           </article>
           <article className="style16">
             <span className="image">
-              <img src={wheel} alt="" />
+              <img src={n25} alt="" />
             </span>
             <Link to="/n25">
               <h2>16 平和と公正をすべての人に</h2>
