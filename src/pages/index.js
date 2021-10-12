@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import wheel from '../assets/images/sdgs_icon/wheel.png';
 import n2 from '../assets/images/n2_top.jpg';
 import n3 from '../assets/images/n3.jpeg';
+import n6 from '../assets/images/n6_top.jpg';
 import n9 from '../assets/images/n9/n9_bvs_1.jpg';
 import n10 from '../assets/images/n10/n10_cs_all.jpg';
 import n11 from '../assets/images/n11/n11_bvs.jpg';
@@ -138,7 +139,7 @@ const IndexPage = () => (
           </article>
           <article className="style9">
             <span className="image">
-              <img src={wheel} alt="" />
+              <img src={n6} alt="" />
             </span>
             <Link to="/n6">
               <h2>9 産業と技術革新の基盤をつくろう</h2>
@@ -151,7 +152,7 @@ const IndexPage = () => (
           </article>
           <article className="style10">
             <span className="image">
-              <img src={wheel} alt="" />
+              <img src={n6} alt="" />
             </span>
             <Link to="/n20">
               <h2>10 人や国の不平等をなくそう</h2>
