@@ -10,6 +10,7 @@ import n9 from '../assets/images/n9/n9_bvs_1.jpg';
 import n10 from '../assets/images/n10/n10_cs_all.jpg';
 import n11 from '../assets/images/n11/n11_bvs.jpg';
 import n13 from '../assets/images/n13.jpg';
+import n21 from '../assets/images/n21/n21.jpg';
 import n25 from '../assets/images/n25.jpg';
 import n27 from '../assets/images/n27.jpg';
 import a1 from '../assets/images/a1/a1_all.jpg';
@@ -178,7 +179,7 @@ const IndexPage = () => (
           </article>
           <article className="style12">
             <span className="image">
-              <img src={wheel} alt="" />
+              <img src={n21} alt="" />
             </span>
             <Link to="/n21">
               <h2>12 つくる責任つかう責任</h2>
