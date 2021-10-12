@@ -9,6 +9,13 @@ import image4 from '../assets/images/n10/n10_cs_3.jpg';
 import image5 from '../assets/images/n10/n10_bs_1.jpg';
 import image6 from '../assets/images/n10/n10_bs_2.jpg';
 import image7 from '../assets/images/n10/n10_bs_3.jpg';
+import image8 from '../assets/images/n10/n10_bvs.jpg';
+import image9 from '../assets/images/n10/n10_vs_1.jpg';
+import image10 from '../assets/images/n10/n10_vs_2.jpg';
+import image11 from '../assets/images/n10/n10_vs_3.jpg';
+import image12 from '../assets/images/n10/n10_vs_4.jpg';
+import image13 from '../assets/images/n10/n10_vs_5.jpg';
+import image14 from '../assets/images/n10/n10_vs_6.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -18,6 +25,9 @@ const IndexPage = () => (
         <p>
           担当：西宮第10団
         </p>
+        <span className="image main">
+          <img src={image8} alt="" />
+        </span>
         <span className="image main">
           <img src={image1} alt="" />
         </span>
@@ -33,6 +43,24 @@ const IndexPage = () => (
               <div className="col-4"><span className="image fit"><img src={image5} alt="" /></span></div>
               <div className="col-4"><span className="image fit"><img src={image6} alt="" /></span></div>
               <div className="col-4"><span className="image fit"><img src={image7} alt="" /></span></div>
+          </div>
+        </div>
+        <div className="box alt">
+						<div className="row gtr-uniform">
+              <div className="col-6"><span className="image fit"><img src={image9} alt="" /></span></div>
+              <div className="col-6"><span className="image fit"><img src={image10} alt="" /></span></div>
+          </div>
+        <div className="box alt">
+						<div className="row gtr-uniform">
+              <div className="col-6"><span className="image fit"><img src={image11} alt="" /></span></div>
+              <div className="col-6"><span className="image fit"><img src={image12} alt="" /></span></div>
+          </div>
+        </div>
+        </div>
+        <div className="box alt">
+						<div className="row gtr-uniform">
+              <div className="col-6"><span className="image fit"><img src={image13} alt="" /></span></div>
+              <div className="col-6"><span className="image fit"><img src={image14} alt="" /></span></div>
           </div>
         </div>
         <span className="image sdgs_icon">
