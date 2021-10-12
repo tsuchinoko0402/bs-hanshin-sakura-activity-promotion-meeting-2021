@@ -2,6 +2,8 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import icon from '../assets/images/sdgs_icon/10.png';
+import image1 from '../assets/images/n20/n20_1.jpg';
+import image2 from '../assets/images/n20/n20_2.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -11,6 +13,12 @@ const IndexPage = () => (
         <p>
           担当：西宮第20団
         </p>
+        <span className="image main">
+          <img src={image1} alt="" />
+        </span>
+        <span className="image main">
+          <img src={image2} alt="" />
+        </span>
         <span className="image sdgs_icon">
           <img src={icon} alt="" />
         </span>

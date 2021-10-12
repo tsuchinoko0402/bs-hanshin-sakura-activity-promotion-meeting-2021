@@ -10,6 +10,7 @@ import n9 from '../assets/images/n9/n9_bvs_1.jpg';
 import n10 from '../assets/images/n10/n10_cs_all.jpg';
 import n11 from '../assets/images/n11/n11_bvs.jpg';
 import n13 from '../assets/images/n13.jpg';
+import n20 from '../assets/images/n20/n20_1.jpg';
 import n21 from '../assets/images/n21/n21.jpg';
 import n25 from '../assets/images/n25.jpg';
 import n27 from '../assets/images/n27.jpg';
@@ -153,7 +154,7 @@ const IndexPage = () => (
           </article>
           <article className="style10">
             <span className="image">
-              <img src={n6} alt="" />
+              <img src={n20} alt="" />
             </span>
             <Link to="/n20">
               <h2>10 人や国の不平等をなくそう</h2>
