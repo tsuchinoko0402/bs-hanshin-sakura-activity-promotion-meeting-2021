@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import wheel from '../assets/images/sdgs_icon/wheel.png';
+import n1 from '../assets/images/n1/n1_bs_2.jpeg';
 import n2 from '../assets/images/n2_top.jpg';
 import n3 from '../assets/images/n3.jpeg';
 import n6 from '../assets/images/n6_top.jpg';
@@ -115,7 +116,7 @@ const IndexPage = () => (
           </article>
           <article className="style7">
             <span className="image">
-              <img src={wheel} alt="" />
+              <img src={n1} alt="" />
             </span>
             <Link to="/n1">
               <h2>7 エネルギーをみんなにそしてクリーンに</h2>
