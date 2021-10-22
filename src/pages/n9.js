@@ -12,6 +12,7 @@ import image_cs_7 from '../assets/images/n9/n9_cs_7.jpg';
 import image_cs_8 from '../assets/images/n9/n9_cs_8.jpg';
 import image_bvs_1 from '../assets/images/n9/n9_bvs_1.jpg';
 import image_bvs_2 from '../assets/images/n9/n9_bvs_2.jpg';
+import image_bs from '../assets/images/n9/n9_bs.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -51,6 +52,9 @@ const IndexPage = () => (
             <div className="col-6"><span className="image fit"><img src={image_bvs_2} alt="" /></span></div>
           </div>
         </div>
+        <span className="image main">
+          <img src={image_bs} alt="" />
+        </span>
         <span className="image sdgs_icon">
           <img src={icon} alt="" />
         </span>
