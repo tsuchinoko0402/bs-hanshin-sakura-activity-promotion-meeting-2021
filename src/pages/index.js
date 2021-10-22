@@ -13,6 +13,7 @@ import n11 from '../assets/images/n11/n11_bvs.jpg';
 import n13 from '../assets/images/n13.jpg';
 import n20 from '../assets/images/n20/n20_1.jpg';
 import n21 from '../assets/images/n21/n21.jpg';
+import n22 from '../assets/images/n22/n22_bs_2.jpg';
 import n25 from '../assets/images/n25.jpg';
 import n27 from '../assets/images/n27.jpg';
 import a1 from '../assets/images/a1/a1_all.jpg';
@@ -103,7 +104,7 @@ const IndexPage = () => (
           </article>
           <article className="style6">
             <span className="image">
-              <img src={wheel} alt="" />
+              <img src={n22} alt="" />
             </span>
             <Link to="/n22">
               <h2>6 安全な水とトイレを世界中に</h2>
