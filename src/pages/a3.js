@@ -18,9 +18,6 @@ const IndexPage = () => (
         <span className="image sdgs_icon">
           <img src={icon} alt="" />
         </span>
-        <p>
-          ここに説明などがあれば書く。
-        </p>
       </div>
     </div>
   </Layout>
